@@ -762,7 +762,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.171e-42, y: 1.02e-43, z: 1.7077718e+19, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1100,6 +1100,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4e11ef4f39bc65e44a4b0755ecac6ea1,
     type: 3}
   m_PrefabInstance: {fileID: 1176719798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &960596397 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5326082922143765578, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 1289178708}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1109148759
 GameObject:
@@ -2500,6 +2506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 848067285}
   range: 100
+  damage: 25
+  muzzleFlash: {fileID: 960596397}
 --- !u!4 &2035225359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 88b5bfec6f1bd17439b2f4339902dca6,
@@ -2679,7 +2687,7 @@ PrefabInstance:
     - target: {fileID: 2804855022700043460, guid: 872d1c15c5e7d4ba68f957c06730530b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 12.78
       objectReference: {fileID: 0}
     - target: {fileID: 2804855022700043460, guid: 872d1c15c5e7d4ba68f957c06730530b,
         type: 3}
