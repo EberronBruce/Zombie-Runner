@@ -2736,35 +2736,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2804855022700043460, guid: 872d1c15c5e7d4ba68f957c06730530b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2804855022700043460, guid: 872d1c15c5e7d4ba68f957c06730530b,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2804855022700043464, guid: 872d1c15c5e7d4ba68f957c06730530b,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2804855022700043465, guid: 872d1c15c5e7d4ba68f957c06730530b,
         type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1534266219}
-    - target: {fileID: 2804855022700043465, guid: 872d1c15c5e7d4ba68f957c06730530b,
+    - target: {fileID: 1948707097973661281, guid: 872d1c15c5e7d4ba68f957c06730530b,
         type: 3}
-      propertyPath: chaseRange
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4771686469843636179, guid: 872d1c15c5e7d4ba68f957c06730530b,
-        type: 3}
-      propertyPath: m_Controller
+      propertyPath: target
       value: 
-      objectReference: {fileID: 9100000, guid: 0c1c8aa64355f4ca1a9821fc8e2cdc51, type: 2}
+      objectReference: {fileID: 1534266219}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 872d1c15c5e7d4ba68f957c06730530b, type: 3}
