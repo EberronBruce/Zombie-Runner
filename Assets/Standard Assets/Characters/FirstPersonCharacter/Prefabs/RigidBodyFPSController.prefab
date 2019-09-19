@@ -332,6 +332,22 @@ Transform:
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033297422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946731447843719466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a87963c66c044a829ae16cf317054eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPCamera: {fileID: 2000000}
+  range: 100
+  damage: 25
+  muzzleFlash: {fileID: 6884268088161817384}
 --- !u!1001 &8280426664792117932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -416,9 +432,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+--- !u!1 &5946731447843719466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 8280426664792117932}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5946731447843362058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 8280426664792117932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6884268088161817384 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3269658908115468676, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 8280426664792117932}
   m_PrefabAsset: {fileID: 0}
