@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Weapon : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class Weapon : MonoBehaviour {
 	[SerializeField] float damage = 25f;
 	[SerializeField] ParticleSystem muzzleFlash;
 	[SerializeField] GameObject hitEffect;
+	[SerializeField] Ammo ammoSlot;
 
 	void Update() {
 		if(Input.GetButtonDown("Fire1")) {
@@ -18,9 +20,11 @@ public class Weapon : MonoBehaviour {
 	}
 
 	private void Shoot() {
-		PlayMuzzleFlash();
-		ProcessRaycast();
-
+		if(ammoSlot.GetCurrentAmmo() > 0) {
+			ammoSlot.ReduceCurrentAmmo();
+			PlayMuzzleFlash();
+			ProcessRaycast();
+		}
 	}
 
 	private void PlayMuzzleFlash() {
