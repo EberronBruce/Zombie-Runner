@@ -28,6 +28,10 @@ public class EnemyAI : MonoBehaviour {
 		}
 	}
 
+	public void OnDamageTaken(float damage) {
+		isProvoked = true;
+	}
+
 	private void Engagetarget() {
 		FaceTarget();
 		if(distanceToTarget >= navMeshAgent.stoppingDistance) {
