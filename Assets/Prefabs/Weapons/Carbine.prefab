@@ -340,6 +340,7 @@ MonoBehaviour:
   hitEffect: {fileID: 2003210153729429330, guid: c95921a27dff6496284b5da3c5fe2f6c,
     type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 2
   timeBetweenShots: 0.01
 --- !u!114 &1199732965005670121
 MonoBehaviour:
