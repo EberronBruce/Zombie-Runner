@@ -9,10 +9,10 @@ public class DeathHandler : MonoBehaviour {
 		gameOverCanvas.enabled = false;
 	}
 
-
 	public void HandleDeath() {
 		gameOverCanvas.enabled = true;
 		Time.timeScale = 0;
+		FindObjectOfType<WeaponSwitcher>().enabled = false;
 		Cursor.lockState = CursorLockMode.None;
 		Cursor.visible = true;
 	}
