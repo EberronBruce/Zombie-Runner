@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 944633893}
   - component: {fileID: 2572508845327671130}
   - component: {fileID: 1556163767113680144}
+  - component: {fileID: 5923870732837077337}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -344,6 +345,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoSlots: []
+--- !u!114 &5923870732837077337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f531c6b3fb141f0a1ca012d9c09df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactCanvas: {fileID: 0}
+  impactTime: 0.3
 --- !u!1 &384399159384073638
 GameObject:
   m_ObjectHideFlags: 0
