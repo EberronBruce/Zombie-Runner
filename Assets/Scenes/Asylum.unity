@@ -2678,6 +2678,16 @@ PrefabInstance:
       propertyPath: currentWeapon
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6061101037562112543, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061101037562112543, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &1377213644
@@ -8050,7 +8060,7 @@ PrefabInstance:
     - target: {fileID: 7398552929905562120, guid: eb81b37edf18545828582a726a13b96f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7398552929905562119, guid: eb81b37edf18545828582a726a13b96f,
         type: 3}
@@ -8120,7 +8130,7 @@ PrefabInstance:
     - target: {fileID: 7398552930722319428, guid: eb81b37edf18545828582a726a13b96f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7398552929460577718, guid: eb81b37edf18545828582a726a13b96f,
         type: 3}
@@ -8135,7 +8145,7 @@ PrefabInstance:
     - target: {fileID: 7398552929460577718, guid: eb81b37edf18545828582a726a13b96f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb81b37edf18545828582a726a13b96f, type: 3}
